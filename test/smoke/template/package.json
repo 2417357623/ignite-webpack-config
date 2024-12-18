@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx mocha",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.prod.js",
     "dev": "webpack-dev-server --config webpack.dev.js",
     "eslint": "npx eslint ."
@@ -25,7 +25,6 @@
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.6.3",
     "mini-css-extract-plugin": "^2.9.2",
-    "mocha": "^11.0.1",
     "plugin": "^0.3.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
@@ -36,10 +35,6 @@
     "webpack-merge": "^6.0.1"
   },
   "devDependencies": {
-    "@babel/eslint-parser": "^7.25.9",
-    "assert": "^2.1.0",
-    "glob-all": "^3.3.1",
-    "i": "^0.3.7",
-    "rimraf": "^6.0.1"
+    "@babel/eslint-parser": "^7.25.9"
   }
 }
